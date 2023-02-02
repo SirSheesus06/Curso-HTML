@@ -29,7 +29,7 @@ html {
 
 .boton:hover {
     background-color: green;
-    color: green;
+    color: white;
 }
 
 .boton:hover::before {
