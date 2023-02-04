@@ -31,35 +31,34 @@
             </div>
 
             <form action="">
-                <div>
-                    <label for="name">
-                        <span>Name</span>
-                        <input type="text" id="name" name="name">
-                    </label>
-                </div>
-                <div>
-                    <label for="username">
-                        <span>Username</span>
-                        <input type="text" id="username" name="username">
-                    </label>
-                </div>
-                <div>
-                    <label for="email">
+                <div class="section-inputs">
+                    <div class="names">
+                        <label for="name">
+                            <span>Name</span>
+                            <input type="text" id="name" name="name">
+                        </label>
+                
+                        <label for="username">
+                            <span>Username</span>
+                            <input type="text" id="username" name="username">
+                        </label>
+                    </div>
+                    <label class="w-100" for="email">
                         <span>Email</span>
                         <input type="email" id="email" name="email">
                     </label>
-                </div>
-                <div>
-                    <label for="password">
+                
+                    <label class="w-100" for="password">
                         <span>Password</span>
                         <input type="password" id="password" name="password" placeholder="6+ Characters">
                     </label>
+                
+                    <label for="checknox">
+                        <span>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</span>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </label>
+                    <button type="submit">Create Account</button>
                 </div>
-                <label for="checknox">
-                    <span>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</span>
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                </label>
-                <button type="submit">Create Account</button>
             </form>
         </div>
     </body>

@@ -69,3 +69,72 @@
 .twitter-btn:hover {
     background-color: #ddd;
 }
+
+/* Separador */
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+/* Formulario e Inputs */
+
+.section-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label input {
+    width: 80%;
+    background-color: #d3d0d0;
+    border: 4px solid #d3d0d0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.w-100 {
+    width: 113%;
+}
+
+label input:hover {
+    background-color: #FFFFFF;
+    border: 4px solid #d3d0d0;
+}
+
+label input:focus {
+    background-color: #FFFFFF;
+    border: 4px solid #d3d0d0;
+}
