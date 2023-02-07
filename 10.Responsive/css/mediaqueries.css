@@ -7,3 +7,19 @@ p {
     color: darkslateblue;
     font-size: 2rem;
 }
+
+@media (min-width: 578px) {
+    h1 {
+        color: darksalmon;
+    }
+}
+
+@media (min-width: 840px) {
+    h1 {
+        color: brown;
+    }
+
+    p {
+        color: darkgoldenrod;
+    }
+}
