@@ -7,15 +7,10 @@
   width: 5rem;
   padding: 1rem;
   font-size: 14pt;
-  margin: 2rem;
+  margin: 1rem 0;
 }
 .btn:hover {
   opacity: 0.7;
-}
-
-body {
-  padding: 0;
-  margin: 0;
 }
 
 .container {
@@ -23,6 +18,26 @@ body {
   background-color: rgb(222, 233, 233);
   min-height: 100vh;
   padding: 0.5rem;
+}
+
+.listado {
+  width: 10rem;
+  background-color: darkcyan;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: upper-roman;
+}
+.listado ul li:hover {
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -42,19 +57,4 @@ p {
   width: 50rem;
   background-color: rgb(191, 207, 252);
   text-align: center;
-}
-
-.listado {
-  width: 10rem;
-  background-color: darkcyan;
-  padding: 0.5rem;
-}
-.listado ul {
-  margin: 0 0.5rem;
-}
-.listado ul li {
-  list-style: upper-roman;
-}
-.listado ul li:hover {
-  color: white;
 }/*# sourceMappingURL=style.css.map */
