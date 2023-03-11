@@ -3,7 +3,4 @@
 @import "scss/estilos";
 
 
-body {
-    padding: 0;
-    margin: 0;
-}
+@use "sass/builtin";
