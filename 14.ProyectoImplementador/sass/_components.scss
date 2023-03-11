@@ -1,0 +1,59 @@
+@mixin btn-sm-modify {
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+}
+
+@mixin btn-base {
+    padding: 0.25rem 1.25rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+$color-main: #0075FF;
+
+// Botones
+
+.btn-main {
+    @include btn-base();
+    background-color: $color-main;
+    color: white;
+    border: solid 1px $color-main;
+
+    &:hover {
+        background-color: white;
+        color: $color-main;
+        border: solid 1px $color-main;
+    }
+
+    &-s {
+        @extend .btn-main;
+        @include btn-sm-modify();
+    }
+}
+
+.btn-sec {
+    @include btn-base();
+    background-color: transparent;
+    color: black;
+    border: none;
+
+    &:hover {
+        color: #888;
+        border: none;
+    }
+
+    &-s {
+        @extend .btn-sec;
+        @include btn-sm-modify();
+    }
+}
+
+// Nav
+
+.main-menu {
+    li {
+        display: inline;
+        font-size: 0.75rem;
+        list-style: none;
+    }
+}
